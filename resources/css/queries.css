@@ -1,0 +1,156 @@
+
+/* =====================*/
+/* BIG TABLETS TO 1200PX*/
+/* =====================*/
+
+@media only screen and (max-width: 1200px) {
+    .IdPhoto img {
+        right: 54.5%;
+        top: 74%;
+    }
+    .btn {
+        width: 18%;
+        padding: 2% 4% 2% 0;
+    }
+    .authorUrl {
+        font-size: 110%;
+        font-weight: 800;
+        left: 19%;
+        top: 60%;
+    }
+    .headerContainer {
+        top: 50%;
+    }
+    .headerTitle {
+        transform: translate(255px, 305px);
+    }
+}
+
+/* =================================================*/
+/* SMALL TABLET TO BIG TABLET: FROM 760 PX TO 1023PX*/
+/* =================================================*/
+
+@media only screen and (max-width: 1023px) {
+    .fa {
+        margin-left: 10%;
+    }
+    .authorUrl {
+        font-size: 100%;
+        padding-right: 1%;
+        left: 12%;
+    }
+    .icons {
+        left: 62%;
+        width: 15%;
+        top: 90%;
+    }
+    .btn {
+        padding: 2.5% 20% 2% 3.5%;
+    }
+}
+
+/* =============================================*/
+/* SMALL PHONES TO SMALL TABLETS 481 - 767 PX  */
+/* ===========================================*/
+
+@media only screen and (max-width: 767px) {
+    .headerTitle {
+        transform: translate(155px, 305px);
+    }
+    #content {
+        width: 470px;
+    }
+    #center {
+        width: 470px;
+        margin: 0 auto;
+    }
+    .btn {
+        padding: 3% 34.5% 3% 6%;
+    }
+    .author {
+        width: 100%;
+    }
+    #awesomeHeadline {
+        width: 100%;
+        color: #D7D7D7;
+        line-height: 0.8;
+        font-size: 1.875em;
+    }
+    .icons {
+        top: 85%;
+        left: 75%;
+    }
+    .headerTitle {
+        font-size: 100%;
+        line-height: 0.4;
+        transform: translate(110px, 325px);
+    }
+}
+
+
+/* =============================*/
+/* SMALL PHONES FROM 0 TO 480PX */
+/* =============================*/
+
+    @media only screen and (max-width: 480px) {
+    .headerTitle {
+        font-size: 75%;
+        top: 9%;
+        right: 60%;
+        width: 70%;
+    }
+    #awesomeHeadline {
+        width: 80%
+    }
+    .headline p {
+        width: 50%;
+    }
+    .author {
+        width: 80%;
+    }
+    .headline {
+        top: 15%;
+        left: 0;
+    }
+    #content {
+        width: 400px;
+    }
+    #center {
+        width: 320px;
+        overflow-y: hidden;
+    }
+    .btn {
+        min-width: 65px;
+        padding: 4.5% 59.5% 2% 9%;
+    }
+    .icons {
+        top: 85%;
+        width: 24%;
+    }
+    #content {
+        width: 294px;
+    }
+    #center {
+        width: 294px;
+        margin: 0 auto;
+    }
+    .footer {
+        padding: 25% 0;
+    }
+    .cd-top {
+        left: 38%;
+        font-size: 110%;
+    }
+    hr {
+        width: 90%;
+    }
+    .main-nav li {
+        margin-left: 5px;
+    }
+    .footerPhotos li {
+        width: 50%;
+    }
+    .footPhotos h3:nth-child(3) {
+        font-size: 150%;
+    }
+

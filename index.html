@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<!-- GOOGLE ANALYTICS -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXX-Y', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- END GOOGLE ANALYTICS -->
+
+    <title>Medium Develomon</title>
+</head>
+
+<body>
+<!-- HEADER SECTION -->
+<section class="Header" id="header">
+    <header class="background-header">
+        <nav>
+            <ul class="main-nav">
+                <li><a href="#Header">Header</a></li>
+                <li><a href="#contentSection">LoremIpsum</a></li>
+                <li><a href="#footerPhotos">Footer</a></li>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="col span-2-of-2 headerContainer">
+            <div class="col  headerTitle">
+                <h1><a>This is a Title</a></h1>
+            </div>
+                 <div class="col span-2-of-4 headline">
+                <h2 id="awesomeHeadline">This is an awesome headline </h2>
+                <hr>
+                <div class="author">
+                    <p>WRITTEN BY</p><span class="fn"><a class="url authorUrl">Arthur GUILERMIN HAZAN</a></span><img src="resources/img/id-photo.png">
+                </div>
+            </div>
+
+            <div class="vcard col span-1-of-4 IdPhoto" id="<hcard-Guilermin-Hazan">
+
+            </div>
+            <div class="col span 1-of-6 icons">
+                <i class="fa fa-star yellow" aria-hidden="true"></i>
+                <i class="fa fa-heart yellow" aria-hidden="true"></i>
+                <i class="url fa fa-share-square-o yellow" aria-hidden="true"></i>
+            </div>
+        </div>
+    </header>
+</section>
+  
+   <!-- CONTENT SECTION -->
+    <section class="contentSection" id="contentSection">
+    <div id="center">
+        <h5>Lines</h5>
+        <div id="content">
+            <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id sapien at sem eleifend laoreet. Vivamus sagittis ipsum sed sapien dapibus, et ultrices est vulputate. Nulla nisi ligula, cursus sed auctor sit amet, convallis a elit. Aenean vestibulum rhoncus commodo. </blockquote>
+
+            <blockquote>Sed euismod congue purus, ut adipiscing metus venenatis et. Proin dapibus sed massa ac mollis. Praesent tempus nulla sapien. Morbi vel blandit elit. Etiam lacinia interdum nibh, a tristique nulla tempor sit amet. Praesent cursus orci ut facilisis commodo.</blockquote>
+
+            <h2 id="h2lorem">&ldquo; This is a long, neat, and pointless quote&rdquo;</h2>
+
+            <blockquote>Ut tempus elementum tortor, a posuere nisl tincidunt sit amet. Etiam est augue, scelerisque eu vestibulum nec, pulvinar eu libero. Sed mattis faucibus risus non luctus. Suspendisse et odio ut turpis cursus varius sed et dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut sed leo neque. </blockquote>
+
+            <blockquote>Donec consectetur accumsan justo, in placerat ante dictum id. Vestibulum magna elit, tincidunt ut ultrices vitae, vehicula eu urna. Donec malesuada ut orci ut aliquam. Mauris non neque massa. Praesent tincidunt purus ut risus dapibus feugiat. Integer accumsan erat at tellus accumsan laoreet :</blockquote>
+            <blockquote class="indent"> &#8226; this is a bullet point with some text inside, and also some Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id sapien at sem eleifend laoreet. Vivamus sagittis ipsum sed sapien dapibus, et ultrices est vulputate. Nulla nisi ligula, cursus sed auctor sit amet, convallis a elit.</blockquote>
+
+            <blockquote class="indent"> &#8226; this is another bullet point, with a bit of Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id sapien at sem eleifend laoreet. Vivamus sagittis ipsum sed sapien dapibus, et ultrices est vulputate. Nulla nisi ligula, cursus sed auctor sit amet, convallis a elit.</blockquote>
+
+            <blockquote class="indent"> &#8226; this is a third bullet point with still some Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id sapien at sem eleifend laoreet. Vivamus sagittis ipsum sed sapien dapibus, et ultrices est vulputate. Nulla nisi ligula, cursus sed auctor sit amet, convallis a elit.</blockquote>
+            <a href="#0" class="cd-top">BACK TO TOP </a>
+
+        </div>
+        <!-- content -->
+    </div>
+    <!-- center -->
+</section>
+   
+   <!-- SECTION FOOTER -->
+<section class="footer">
+    <a class="btn" data-toggle="modal" data-target="#myModal"><i class="fa fa-share-square-o" aria-hidden="true" id="icon-share"> SHARE THIS ARTICLE</i>
+            </a>
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Share Button Modal</h4>
+                </div>
+                <div class="modal-body">
+                    <form role="form" action="sendRefEmail.php" method="post">
+                        <div class="form-group">
+                            <label for="name"><span class="glyphicon glyphicon-user"></span> Name</label>
+                            <input type="text" name="Name" class="form-control" id="usrname" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email"><span class="glyphicon glyphicon-envelope"></span> Email</label>
+                            <input type="text" name="Email"class="form-control" id="email" placeholder="Enter Your Email">
+                        </div>
+                        <button type="submit" class="btn btn-default btn-success btn-block"><span class="glyphicon glyphicon-envelope"></span> Send</button>
+                    </form>
+                 </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+     </div>
+</div>
+</section>
+        
+ <!-- SECTION ABOVE FOOTER -->
+<setion class="footerPhotos" id="footerPhotos">
+    <div class="footerPhotos">
+        <div class="footPhotos" id="left-img">
+            <p>NEXT IN YOUR READING LIST...</p>
+            <P>Seaside, no thanks...</P>
+            <h3>This is an awesome headline</h3>
+        </div>
+        <div class="footPhotos" id="right-img">
+            <p>NEXT IN YOUR READING LIST...</p>
+            <p>Roma, bella vita...</p>
+            <h3>This is an awesome headline</h3>
+        </div>
+    </div>
+</setion>
+
+<!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- RESPONSIVE WEB DESIGN - THE VIEWPORT -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS FILE -->
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+    <!-- MEDIA QUERIES (BREAKPOINTS) -->
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+
+    <!-- MAKE BROWSER RENDER ALL ELEMENTS MORE CONSISTENTLY -->
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+
+    <!-- EDITED RESPONSIVE GRID  -->
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+
+    <!-- GOOGLE GENTIUM FONT -->
+    <link href='https://fonts.googleapis.com/css?family=Gentium+Basic:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- FONT AWESOME ICONS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+
+    <!-- BOOTSTRAP JS -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="resources/js/script.js"></script>
+</body>
+
+</html>
