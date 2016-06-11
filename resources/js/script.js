@@ -1,5 +1,4 @@
 
-//Array of images which you want to show: Use path you want.
 var images=new Array('resources/img/header.png','resources/img/header3.jpg');
 var nextimage=0;
 doSlideshow();
@@ -35,16 +34,14 @@ function myFunction() {
 
 
 $(document).ready(function($){
-	// browser window scroll (in pixels) after which the "back to top" link is shown
+
 	var offset = 300,
-		//browser window scroll (in pixels) after which the "back to top" link opacity is reduced
 		offset_opacity = 1200,
-		//duration of the top scrolling animation (in ms)
+		//Duration Of The Scrolling Animation
 		scroll_top_duration = 700,
-		//grab the "back to top" link
+		//Grab Back To The Top Link
 		$back_to_top = $('.cd-top');
 
-	//hide or show the "back to top" link
 	$(window).scroll(function(){
 		( $(this).scrollTop() > offset ) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible cd-fade-out');
 		if( $(this).scrollTop() > offset_opacity ) { 
@@ -52,7 +49,7 @@ $(document).ready(function($){
 		}
 	});
 
-	//smooth scroll to top
+	//Smooth Scrool To Top
 	$back_to_top.on('click', function(event){
 		event.preventDefault();
 		$('html, body').animate({
